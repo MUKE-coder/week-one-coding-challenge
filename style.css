@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Consolas", Courier, monospace;
+}
+body {
+  font-size: 18px;
+}
+.text-blue {
+  color: blue;
+}
+.text-white {
+  color: white;
+}
+.text-sm {
+  font-size: 1.2rem;
+}
+hr {
+  width: 40vw;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.py-md {
+  padding: 2rem 0;
+}
+.py-sm {
+  padding: 1rem 0;
+}
+
+.my-name {
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
+}
+section {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+section h1 {
+  font-size: 30px;
+}
+.social-link a {
+  text-decoration: none;
+}
+.social-link img {
+  width: 30px;
+  transition: all 0.5s ease;
+}
+.social-link img:hover {
+  transform: scale(0.9);
+}
+.about-me {
+  border: 1px dashed blue;
+  padding: 1rem;
+}
+.gallery img {
+  width: 40%;
+  margin: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+.withIrad {
+  border: 5px solid black;
+  transform: rotate(10deg);
+}
+.withIrad:hover {
+  transform: rotate(-12deg);
+}
+.codingKids {
+  transform: rotate(-10deg);
+  border: 5px dashed red;
+}
+.codingKids:hover {
+  transform: rotate(12deg);
+}
+.withDesishub {
+  border: 5px solid blue;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.withDesishub:hover {
+  border: 5px solid darkblue;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.pausing {
+  filter: hue-rotate();
+}
+
+.cta-buttons a {
+  text-decoration: none;
+  /* margin: 1rem; */
+}
+.btn {
+  color: darkblue;
+  background-color: white;
+  padding: 13px 30px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  color: blue;
+  background-color: white;
+}
+.btn-outline {
+  border: 2px solid darkblue;
+}
+.btn-outline:hover {
+  border: 2px solid blue;
+}
+.btn-round {
+  border-radius: 40px;
+}
+.btn-fill {
+  background-color: darkblue;
+  color: white;
+}
+.btn-fill:hover {
+  background-color: blue;
+  color: white;
+}
+.cta-buttons {
+  margin: 2rem;
+}
